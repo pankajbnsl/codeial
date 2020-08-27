@@ -18,7 +18,7 @@ body {
       .login-signup .container .row .content-left {
         max-width: 650px; }
         .login-signup .container .row .content-left h1 {
-          font-size: 50px;
+          font-size: 60px;
           color: #b2f218;
           margin-bottom: 25px;
           font-weight: 900; }
@@ -34,7 +34,7 @@ body {
         margin: auto;
         text-align: center; }
         .login-signup .container .row .content-right form {
-          width: 380px;
+          width: 325px;
           height: 400px;
           background: #ffffffa6;
           border-radius: 30px;
@@ -48,8 +48,8 @@ body {
           .login-signup .container .row .content-right form p {
             margin-bottom: 25px; }
           .login-signup .container .row .content-right form input {
-            width: 92%;
-            height: 50px;
+            width: 83%;
+            height: 45px;
             margin-bottom: 5px;
             border-radius: 10px;
             font-size: 15px; }
