@@ -1,4 +1,30 @@
 #header-part {
   width: 100%;
-  height: 10%;
-  background-color: yellow; }
+  height: 8%;
+  background-color: darkgrey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed; }
+  #header-part #heading-part {
+    line-height: 10px;
+    margin-left: 20px; }
+  #header-part #link-part {
+    width: 15%; }
+    #header-part #link-part #details-part {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      #header-part #link-part #details-part a {
+        text-decoration: none;
+        color: black; }
+  #header-part #celeb-page {
+    line-height: 14px;
+    margin-right: 20px; }
+    #header-part #celeb-page p {
+      color: #000000bf;
+      font-size: 19px; }
+      #header-part #celeb-page p a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold; }

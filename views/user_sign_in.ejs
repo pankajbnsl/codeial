@@ -1,7 +1,28 @@
-<h1>sign in</h1>
-
-<form action="/users/create-session" method="POST">
-     <input type="email" name="email" placeholder="Email" required>
-     <input type="password" name="password" placeholder="Password" required>
-     <input type="submit" value="sign-in">
-</form>
+<link rel="stylesheet" href="/css/sign-in.css">
+<!-- sign in page start -->
+<div class="login-signup">
+     <div class="container">
+          <div class="row">
+               <div class="content-left">
+                    <h1>Global Chat</h1>
+                    <h2>Global Chat helps you connect and share with the people in your life</h2>
+               </div>
+               <div class="content-right">
+                    <form action="/users/create-session" method="POST">
+                         <div class="form-group">
+                         <input type="email" name="email" placeholder="Email" required>
+                         </div>
+                         <div class="form-group">
+                         <input type="password" name="password" placeholder="Password" required>
+                         </div>
+                         <div class="signin">
+                         <input type="submit" value="sign-in">
+                         </div>
+                         <div class="create-btn">
+                              <a href="">Create New Account</a>
+                         </div>
+                    </form>
+               </div>
+          </div>
+     </div>
+</div>

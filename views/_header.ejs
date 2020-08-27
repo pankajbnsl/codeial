@@ -1,23 +1,27 @@
-<div id= "header-part">
-<header>
-    page header
 
- <ul>
+<header id="header-part">
+    <div id="heading-part">
+        <h2>Global Chat</h2>
+     </div>
+
+ 
+  
     <% if(locals.user) { %>
+        <ul id="link-part">
+        <div id="details-part">
+        <div id="profile-name">
        <li><a href="/users/profile"><%= user.name %></a></li>
-      <li>
-          <a href="/users/sign-out">Sign-out</a>
-      </li>
+       </div>
+       <div id="sign-out">
+      <li> <a href="/users/sign-out">Sign-out</a></li>
+      </div>
+      </div>
+    </ul> 
       <% } else { %>
-
-        <li>
-            <a href="/users/sign-in">Sign-In</a>
-        </li>
-
-        <li>
-            <a href="/users/sign-up">Sign-up</a>
-        </li>
+        <div id="celeb-page">
+        <p><a href="#">Create  a  Page</a> For  a  Celebrity , band  or  bussiness</p> 
+        </div>
     <% } %>
- </ul>
+ 
+    
  </header>
- </div>
