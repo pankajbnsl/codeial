@@ -1,6 +1,78 @@
-.login-signup {
+body {
   height: 100%;
   width: 100%;
-  background-image: linear-gradient(to top right, #00000094, #ffffff8a), url("/images/background.jpg");
+  background-image: linear-gradient(to top right, #000000f0, #ffffff8c), url("/images/background.jpg");
   background-position: center;
   background-size: cover; }
+
+.login-signup {
+  height: 73%; }
+  .login-signup .container {
+    max-width: 1080px;
+    margin: auto; }
+    .login-signup .container .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 105px; }
+      .login-signup .container .row .content-left {
+        max-width: 650px; }
+        .login-signup .container .row .content-left h1 {
+          font-size: 50px;
+          color: #b2f218;
+          margin-bottom: 25px;
+          font-weight: 900; }
+        .login-signup .container .row .content-left h2 {
+          font-size: 28px;
+          color: white;
+          line-height: 32px;
+          font-weight: 500;
+          margin-bottom: 40px;
+          width: 550px; }
+      .login-signup .container .row .content-right {
+        max-width: 450px;
+        margin: auto;
+        text-align: center; }
+        .login-signup .container .row .content-right form {
+          width: 380px;
+          height: 400px;
+          background: #ffffffa6;
+          border-radius: 30px;
+          border: 1.5px solid black;
+          box-shadow: -1px -1px 8px -1px rgba(0, 0, 0, 0.52); }
+          .login-signup .container .row .content-right form h1 {
+            font-size: 20px;
+            margin-top: 30px;
+            font-weight: 600;
+            margin-bottom: 20px; }
+          .login-signup .container .row .content-right form p {
+            margin-bottom: 25px; }
+          .login-signup .container .row .content-right form input {
+            width: 92%;
+            height: 50px;
+            margin-bottom: 5px;
+            border-radius: 10px;
+            font-size: 15px; }
+            .login-signup .container .row .content-right form input:hover {
+              border: 2px solid #1c1e21;
+              background: #f0f2f5; }
+          .login-signup .container .row .content-right form hr {
+            width: 60%;
+            color: blue; }
+          .login-signup .container .row .content-right form .signin input {
+            width: 70%;
+            height: 40px;
+            text-transform: capitalize;
+            margin-top: 12px; }
+          .login-signup .container .row .content-right form .create-btn a {
+            display: inline-block;
+            text-decoration: none;
+            margin-top: 12px;
+            width: 40%;
+            height: 40px;
+            border-radius: 10px;
+            border: 2px solid black;
+            background: white;
+            transition: 0.3s; }
+            .login-signup .container .row .content-right form .create-btn a:hover {
+              background: yellow; }

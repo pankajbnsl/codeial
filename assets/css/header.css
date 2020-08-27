@@ -1,11 +1,10 @@
 #header-part {
   width: 100%;
   height: 8%;
-  background-color: darkgrey;
+  background-color: #4c646a8f;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  position: fixed; }
+  justify-content: space-between; }
   #header-part #heading-part {
     line-height: 10px;
     margin-left: 20px; }
