@@ -29,7 +29,7 @@ module.exports.signUp = function(req, res){
     }
 
     return res.render('user_sign_up', {
-        title: "Codeial | Sign Up"
+        title: "Global Chat | Sign Up"
     })
 }
 
@@ -42,7 +42,7 @@ module.exports.signIn = function(req, res){
     }
     
     return res.render('user_sign_in', {
-        title: "Codeial | Sign In"
+        title: "Global Chat | Sign In"
     })
 }
 
