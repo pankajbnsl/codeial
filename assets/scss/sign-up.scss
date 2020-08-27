@@ -1,9 +1,18 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(to top right, #ffffff87, transparent),url('/images/background2.jpg');
+    background-position: center;
+    background-size: cover;
+}
 
+::-webkit-input-placeholder{
+    color: black;
+}
 
-
-
-
-#unique{
+#signup-page{
+    height: 73%;
+   #unique{
     display: flex;
     flex-direction: row;
     margin-top: 100px;
@@ -35,9 +44,40 @@
             text-align: center;
             form{
                 width: 350px;
-                height: 400px;
+                input{
+                    width: 110%;
+                    height: 45px;
+                    margin-bottom: 5px;
+                    border-radius: 12px;
+                    border: 1px solid black;
+                    font-size: 15px;
+                    &:hover
+                    {
+                        border: 1.5px solid #1c1e21;
+                        background: #f0f2f5;
+                    }
+                }
+                p{
+                    font-size: 11px;
+                    margin-top: 3px;
+                }
+                #signup{
+                    input{
+                           width: 70%;
+                           background-color: lightgrey;
+                            height: 40px;
+                           text-transform: capitalize;
+                           margin-top: 4px;
+                           margin-left: 50px;
+                           &:hover{
+                               background: yellow;
+                               border: 1px solid red;
+                           }
+                    }
+                }
             }
         }
     }
     
+}
 }

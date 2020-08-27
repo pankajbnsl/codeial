@@ -1,29 +1,63 @@
-#unique {
-  display: flex;
-  flex-direction: row;
-  margin-top: 100px;
-  box-shadow: 0px 8px 35px 5px black;
-  width: 900px;
-  height: 400px;
-  margin-left: 20%;
-  background-color: #1877844f; }
-  #unique #images {
-    position: relative;
-    background: url("/images/signup.png");
-    height: 400px;
-    width: 448px;
-    background-size: cover;
-    background-position: center; }
-  #unique #row-part {
+body {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to top right, #ffffff87, transparent), url("/images/background2.jpg");
+  background-position: center;
+  background-size: cover; }
+
+::-webkit-input-placeholder {
+  color: black; }
+
+#signup-page {
+  height: 73%; }
+  #signup-page #unique {
     display: flex;
-    flex-direction: column;
-    position: relative;
-    width: 395px; }
-    #unique #row-part #heading-content h2 {
-      margin-bottom: 5px; }
-    #unique #row-part #farm-content {
-      max-width: 390px;
-      text-align: center; }
-      #unique #row-part #farm-content form {
-        width: 350px;
-        height: 400px; }
+    flex-direction: row;
+    margin-top: 100px;
+    box-shadow: 0px 8px 35px 5px black;
+    width: 900px;
+    height: 400px;
+    margin-left: 20%;
+    background-color: #1877844f; }
+    #signup-page #unique #images {
+      position: relative;
+      background: url("/images/signup.png");
+      height: 400px;
+      width: 448px;
+      background-size: cover;
+      background-position: center; }
+    #signup-page #unique #row-part {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      width: 395px; }
+      #signup-page #unique #row-part #heading-content h2 {
+        margin-bottom: 5px; }
+      #signup-page #unique #row-part #farm-content {
+        max-width: 390px;
+        text-align: center; }
+        #signup-page #unique #row-part #farm-content form {
+          width: 350px; }
+          #signup-page #unique #row-part #farm-content form input {
+            width: 110%;
+            height: 45px;
+            margin-bottom: 5px;
+            border-radius: 12px;
+            border: 1px solid black;
+            font-size: 15px; }
+            #signup-page #unique #row-part #farm-content form input:hover {
+              border: 1.5px solid #1c1e21;
+              background: #f0f2f5; }
+          #signup-page #unique #row-part #farm-content form p {
+            font-size: 11px;
+            margin-top: 3px; }
+          #signup-page #unique #row-part #farm-content form #signup input {
+            width: 70%;
+            background-color: lightgrey;
+            height: 40px;
+            text-transform: capitalize;
+            margin-top: 4px;
+            margin-left: 50px; }
+            #signup-page #unique #row-part #farm-content form #signup input:hover {
+              background: yellow;
+              border: 1px solid red; }

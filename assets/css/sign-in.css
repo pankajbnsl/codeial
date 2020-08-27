@@ -5,6 +5,10 @@ body {
   background-position: center;
   background-size: cover; }
 
+::-webkit-input-placeholder {
+  color: black;
+  text-align: center; }
+
 .login-signup {
   height: 73%; }
   .login-signup .container {

@@ -6,6 +6,11 @@ body{
     background-size: cover;
 }
 
+::-webkit-input-placeholder{
+    color: black;
+    text-align: center;
+}
+
 .login-signup{
     height: 73%; 
     .container{
