@@ -19,7 +19,7 @@ function(req, email, password, done){
         }
 
         if (!user || user.password != password){
-            req.flash('error', 'Invalid Username/Password');
+            req.flash('success', 'Invalid Username/Password');
             return done(null, false);
         }
 
