@@ -39,7 +39,8 @@ body {
         text-align: center; }
         .login-signup .container .row .content-right form {
           width: 325px;
-          height: 400px;
+          height: 430px;
+          margin-top: -8px;
           background: #ffffffa6;
           border-radius: 30px;
           border: 1.5px solid black;
@@ -82,3 +83,6 @@ body {
             transition: 0.3s; }
             .login-signup .container .row .content-right form .create-btn a:hover {
               background: yellow; }
+          .login-signup .container .row .content-right form .google-in a {
+            text-decoration: none;
+            color: black; }

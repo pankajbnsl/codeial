@@ -44,7 +44,8 @@ body{
                 text-align: center;
                 form{
                     width: 325px;
-                    height: 400px;
+                    height: 430px;
+                    margin-top: -8px;
                     background: #ffffffa6;
                     border-radius: 30px;
                     border: 1.5px solid black;
@@ -82,8 +83,7 @@ body{
                            margin-top: 12px;
                         }
                     }
-                    .create-btn{
-                        
+                    .create-btn{   
                         a{      
                             display: inline-block;
                             text-decoration: none;
@@ -99,8 +99,13 @@ body{
                             &:hover{
                                 background: yellow;
                             }
+                        }     
+                    }
+                    .google-in{
+                        a{
+                            text-decoration: none;
+                            color: black;
                         }
-                        
                     }
                 }
             }
