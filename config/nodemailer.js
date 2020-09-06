@@ -11,7 +11,6 @@ let transporter = nodemailer.createTransport({
     auth: {
         user: 'bansal.pankaj.0786@gmail.com',
         pass: 'zyjquhltmlrnsmpd'
-        // pass: 'Keshu786'
     },
     tls: {
         rejectUnauthorized: false
@@ -25,7 +24,7 @@ let renderTempelate = (data, relativePath) => {
         data,
         function(err, template) {
             if (err) {
-                console.log('error in rendering template');
+                console.log('error in rendering template', err);
                 return;
             }
             mailHtml = template;
